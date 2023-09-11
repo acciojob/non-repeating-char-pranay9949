@@ -21,12 +21,12 @@ function firstNonRepeatedChar(str) {
 		i++;
 	
 	}
-	if(b.charAt(b.lenght-1)!=b.charAt(b.length-2)){
+	if(b.charAt(b.length-1)!=b.charAt(b.length-2)){
         s=b.charAt(b.length-1);
 		return s
 	}
 	return s;
 	 
 }
-const input = propt("Enter a string");
+const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
